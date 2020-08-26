@@ -16,25 +16,21 @@ SetupLogging=yes
 UsePreviousAppDir=yes
 DisableStartupPrompt=yes
 Output=yes
-OutputDir=d:\Download
+OutputDir=e:\yuden\Compile
 OutputBaseFilename=Certificates-Install
 AllowNoIcons=True
 AppPublisher=New Internet Technologies Inc.
-AppSupportURL=http://yudenisov.ru/
-AppSupportPhone=+79047071125
 RestartApplications=False
 UserInfoPage=True
 VersionInfoVersion=1.0.0.0
 VersionInfoCompany=New Internet Technologies Inc.
 VersionInfoTextVersion=Version 1.0.0.0_alpha
-VersionInfoCopyright=Copyright (c) yudenisov 2020
 VersionInfoProductName=Certificates-Install
 VersionInfoProductVersion=1.0.0.0
-AppPublisherURL=http://anticriminalonline.ru/
-AppContact=yudenisov@mail.ru
+AppPublisherURL=http://file.tuneserv.ru/
 SolidCompression=True
 LicenseFile=.\LICENSE.md
-AppCopyright=Copyright (c) Yuri A. Denisov 2020
+
 
 [Files]
 ;Source: "Util\*.cmd"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
@@ -46,9 +42,9 @@ Source: "Util\*.vbs"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonl
 Source: "Util\*.wsf"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
 Source: "Util\*.reg"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace; Attribs: hidden
 Source: "Scripts\Certificates-Install-Postinstall.bat"; DestDir: "{app}"; Flags: uninsremovereadonly uninsrestartdelete
-Source: "d:\yuden\.cert_data\nitfilesign1.pfx"; DestDir: "{app}"; Flags: uninsremovereadonly uninsrestartdelete; Attribs: hidden
-Source: "d:\yuden\.cert_data\verisign-gen0.pfx"; DestDir: "{app}"; Flags: uninsremovereadonly uninsrestartdelete; Attribs: hidden
-Source: "d:\yuden\.cert_data\verifilesign1.pfx"; DestDir: "{app}"; Flags: uninsremovereadonly uninsrestartdelete; Attribs: hidden
+Source: "E:\yuden\.cert_data\nitfilesign1.pfx"; DestDir: "{app}"; Flags: uninsremovereadonly uninsrestartdelete; Attribs: hidden
+Source: "E:\yuden\.cert_data\verisign-gen0.pfx"; DestDir: "{app}"; Flags: uninsremovereadonly uninsrestartdelete; Attribs: hidden
+Source: "E:\yuden\.cert_data\verifilesign1.pfx"; DestDir: "{app}"; Flags: uninsremovereadonly uninsrestartdelete; Attribs: hidden
 
 [Registry]
 
