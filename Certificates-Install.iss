@@ -16,7 +16,7 @@ SetupLogging=yes
 UsePreviousAppDir=yes
 DisableStartupPrompt=yes
 Output=yes
-OutputDir=C:\CODE\Compile
+OutputDir=e:\yuden\Compile
 OutputBaseFilename=Certificates-Install
 AllowNoIcons=True
 AppPublisher=New Internet Technologies Inc.
@@ -27,7 +27,7 @@ VersionInfoCompany=New Internet Technologies Inc.
 VersionInfoTextVersion=Version 1.0.0.0_alpha
 VersionInfoProductName=Certificates-Install
 VersionInfoProductVersion=1.0.0.0
-AppPublisherURL=http://dummy.mydomen.com/
+AppPublisherURL=http://file.tuneserv.ru/
 SolidCompression=True
 LicenseFile=.\LICENSE.md
 

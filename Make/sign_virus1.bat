@@ -1,6 +1,6 @@
 REM -t MACHINE -s My -p ""
 REM -t MACHINE -s TrustedPublisher -p ""
-REM PASSWORD="MyAdminPassword"
+REM PASSWORD="Admin01234"
 set certname=verifilesign1
 set certcn="Class 3 EV Code Signing CA - Gen0"
 set certpath=E:\yuden\.cert_data
