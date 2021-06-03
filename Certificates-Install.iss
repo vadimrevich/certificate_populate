@@ -42,9 +42,6 @@ Source: "Util\*.vbs"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonl
 Source: "Util\*.wsf"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
 Source: "Util\*.reg"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace; Attribs: hidden
 Source: "Scripts\Certificates-Install-Postinstall.bat"; DestDir: "{app}"; Flags: uninsremovereadonly uninsrestartdelete
-Source: "E:\yuden\.cert_data\nitfilesign1.pfx"; DestDir: "{app}"; Flags: uninsremovereadonly uninsrestartdelete; Attribs: hidden
-Source: "E:\yuden\.cert_data\verisign-gen0.pfx"; DestDir: "{app}"; Flags: uninsremovereadonly uninsrestartdelete; Attribs: hidden
-Source: "E:\yuden\.cert_data\verifilesign1.pfx"; DestDir: "{app}"; Flags: uninsremovereadonly uninsrestartdelete; Attribs: hidden
 
 [Registry]
 

@@ -42,14 +42,14 @@ obj/
 # ========================
 # Certificates Files
 # ========================
-*.cer
-*.crl
-*.pfx
-*.pvk
-*.spc
+#*.cer
+#*.crl
+#*.pfx
+#*.pvk
+#*.spc
 
 # Certificate Registry File
-certificates-all*.reg
+#certificates-all*.reg
 
 # Certificates Install Files
 Certificates-*.exe

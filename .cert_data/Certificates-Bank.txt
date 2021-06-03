@@ -1,0 +1,14 @@
+Сбербанк-Онлайн:
+3. online.sberbank.ru
+2. Thawte EV RSA CA 2018
+1. DigiCert High Assurance EV Root CA
+
+ЦБ РФ:
+3. *.cbr.ru
+2. Thawte RSA CA 2018
+1. DigiCert Global Root CA
+
+Альфа-банк:
+3. alfabank.ru
+2. Thawte EV RSA CA 2018
+1. DigiCert High Assurance EV Root CA
