@@ -1,0 +1,3 @@
+*.rt.ru
+GeoTrust RSA CA 2018
+DigiCert
