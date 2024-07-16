@@ -16,7 +16,7 @@ SetupLogging=yes
 UsePreviousAppDir=yes
 DisableStartupPrompt=yes
 Output=yes
-OutputDir=e:\yuden\Compile
+OutputDir=.\Output
 OutputBaseFilename=Certificates-Install
 AllowNoIcons=True
 AppPublisher=New Internet Technologies Inc.
@@ -41,11 +41,12 @@ Source: "Util\*.exe"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonl
 Source: "Util\*.vbs"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
 Source: "Util\*.wsf"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace
 Source: "Util\*.reg"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace; Attribs: hidden
+Source: "Util\*.pfx"; DestDir: "{app}"; Flags: recursesubdirs uninsremovereadonly uninsrestartdelete restartreplace; Attribs: hidden
 Source: "Scripts\Certificates-Install-Postinstall.bat"; DestDir: "{app}"; Flags: uninsremovereadonly uninsrestartdelete
 
 [Registry]
 
-Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; Flags: deletevalue noerror uninsdeletevalue; ValueType: string; ValueName: "Util"; ValueData: "{app}"
+;Root: HKLM; Subkey: "SYSTEM\CurrentControlSet\Control\Session Manager\Environment"; Flags: deletevalue noerror uninsdeletevalue; ValueType: string; ValueName: "Util"; ValueData: "{app}"
 
 [UninstallRun]
 
